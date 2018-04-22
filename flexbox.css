@@ -1,0 +1,73 @@
+/*
+
+This is the css for page 2, the CV page.
+
+*/
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  align-content: center;
+}
+
+/*head*/
+
+.head {
+  margin-top: 0%;
+
+}
+
+
+nav {
+  padding-left: 39%;
+  /*padding-top: 2%;*/
+  position: absolute;
+  margin-top: -5%;
+  font-size: 1em;
+}
+
+li {
+  float: left;
+  padding: 10px 10px 10px 10px;/*up right down left*/
+  list-style: none;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /*padding: 10px 10px 10px 10px;*/
+}
+
+a:hover {
+  color: red;
+}
+
+.c {
+  color: grey;
+  pointer-events: none;
+}
+
+
+
+/*body*/
+
+.torso {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-left: 48%;
+}
+
+img {
+  margin-left: 32.5%;
+}
+
+p {
+  text-align: center;
+}

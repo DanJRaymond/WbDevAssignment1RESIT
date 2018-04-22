@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
+
+/*head*/
+
+.head {
+  margin-top: 0%;
+
+}
+
+
+nav {
+  padding-left: 39%;
+  /*padding-top: 2%;*/
+  position: absolute;
+  margin-top: -5%;
+  font-size: 1em;
+}
+
+li {
+  float: left;
+  padding: 10px 10px 10px 10px;/*up right down left*/
+  list-style: none;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /*padding: 10px 10px 10px 10px;*/
+}
+
+a:hover {
+  color: red;
+}
+
+.c {
+  color: grey;
+  pointer-events: none;
+}
+
+
+
+/*body*/
+
+.torso {
+  margin-top: 5%;
+  align-content: center;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+/*Page 1 Index*/
+.hpic {
+  margin-left: 25%;
+}
+/*Page 2 about*/
+.abt {
+  margin: 0% 15% 0% 10%;
+  padding-bottom: 2%;
+}
+
+.aboutme {
+  margin-left: 40%;
+}
+/*Page 3*/
+
+/*Page 4 Social*/
+
+.social {
+  margin-left: 42.5%;
+}
+
+/*Page 5 MGP*/
+
+.mgp {
+  margin: 0% 5% 0% 5%;
+  padding-bottom: 2%;
+}
+
+.mgpimg {
+  margin-left: 25%
+}
+
+.conep {
+  margin: 0% 0% 0% 10%;
+}
+
+/*Page 6*/
+
+.formed {
+  margin-left: 45%;
+}
+
+@media  (max-width: 30vw) {
+
+  a {
+    color: antiquewhite;
+  }
+}
